@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+</head>
+<body>
+    <h2> WELCOME TO THE REGISTRATION</h2>
+    <form action="/Signup/" method="POST">
+        
+        <label for="">Username</label>
+        <input type="text" id="username" name="username" placeholder="create a username" pattern="^[A-Za-z_0-9]{4,10}$" required>
+        <br>
+
+
+        <label for="">First name</label>
+        <input type="text" id="fname" name="fname" placeholder="Enter your First Name" pattern="^[A-Za-z]{4,30}$" required>
+        <br>
+
+
+        <label for="">Last name</label>
+        <input type="text" id="lname" name="lname" placeholder="Enter your Last Name" pattern="^[A-Za-z]{4,50}$" required>
+        <br>
+
+
+        <label for="">email adress</label>
+        <input type="email" id="email" name="email" placeholder="Enter your Email" pattern="" required>
+        <br>
+
+
+        <label for="">password</label>
+        <input type="password" id="password" name="password" placeholder="Create a Password" pattern="^[A-Za-z_0-9]{6,19}$" required>
+        <br>
+
+
+        <label for="">confirm password</label>
+        <input type="password" id="confirm" name="confirmpassword" placeholder="confirm Password" required>
+        <br>
+
+
+        <button type="submit">Sign Up</button>
+    </form>
+
+    
+     
+</body>
+</html>
